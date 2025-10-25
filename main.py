@@ -18,7 +18,7 @@ def show_prices(prices, currency="eur"):
         table.append([coin.upper(), f"{data[currency]} €"])
     print(tabulate(table, headers=["Crypto", "Price"], tablefmt="fancy_grid"))
 
-
+# easyyy
 def main():
     print("== crypto tracker ==")
     cryptos_input = input("insert the crryptos (es: bitcoin, ethereum, tether): ")
